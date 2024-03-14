@@ -1,0 +1,45 @@
+[client]
+client_code = "xxx"
+app_key = "xxx"
+app_secret = "xxx"
+mqtt_pwd = "xxx"
+docker_pwd = "xxx"
+server_ip = "xxx"
+wx_app_key = "xxx"
+wx_app_secret = "xxx"
+
+[app]
+[app.metalab_page]
+conf_path = "/root/data/metalabs-page/config"
+
+[app.metalab]
+conf_path = "/root/data/metalabs/config"
+data_path = "/root/data/metalabs/data/webm"
+
+[app.ffmpeg]
+conf_path = "/root/data/ffmpeg-go"
+ffmpeg_path = "/root/data/ffmpeg"
+
+[service]
+[service.mysql]
+port = "xxx"
+pwd = "xxx"
+conf_path = "/root/data/mysql/conf"
+data_path = "/root/data/mysql/data"
+
+[service.redis]
+port = "6379"
+pwd = "redis123456"
+conf_path = "/root/data/redis/config"
+data_path = "/root/data/redis/data"
+log_path = "/root/data/redis/logs"
+
+[service.minio]
+port = "xxx"
+web_port = "xxx"
+pwd = "xxx"
+conf_path = "/root/data/minio/config"
+data_path = "/root/data/minio/data"
+
+[service.srs]
+conf_path = "/root/data/srs/srs4/conf"
